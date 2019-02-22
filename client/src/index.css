@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ul{
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  flex: auto;
+}
+.product_grid {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+.product_grid img {
+  width: 100%;
+  max-height: 301px
+}
+.mainP{
+  top: 235px;
+  padding: 23px 0;
+}
+.footer{
+position: absolute;
+margin-top: 1em;
+margin: 0%;
+height:99px;
+left: 0;
+right: 0;
+background: whitesmoke;
+width: 100%;
+color:black;
+text-align: center;
+
+}
+.footer p{
+}
+
+.header{
+text-align: left;
+display: block;
+font-size: 55px;
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+.homeheader{
+  text-align: center;
+  margin-top: 51px;
+  font-size: 99px
+}
+.logoAndHeader{
+  display: inline-block;
+}
+.homeimgs img{
+  position: center;
+  display:block;
+  border-right: 101px;
+  width:100%;
+}
+.product_info_text{
+  margin: auto;
+  margin-top: 5em;
+  float: right;
+}
+.product_description{
+  /* position: absolute; */
+  /* right:246px;
+  top:237px; */
+  text-decoration: underline;
+}
+
+.product_description_img{
+    display: block;
+    width: 31%;
+    margin-top: 5em;
+    border: 1px solid #021a40;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}  
+.product_description_button{
+  /* position: absolute; */
+  right: 577px;
+  top: 650px;
+  font-size: 31px;
+  /* border-radius: 5px;   */
+  color: white;
+  background-color: black
+}
+.product_description_button:hover{
+  color:#FDB32B;
+  font-size: 31.1px
+}
+.cartheading{
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.cartfooter{
+  display: block;
+  border: 1px solid #000;
+  padding: 3px 6px;
+  color: #000;
+}
+.cartitems{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cartitems img{
+ width: 25%;
+}
+.removebutton{
+  position: absolute;
+  right:231px;
+  font-size: 13px;
+}
+.subtotaltitle{
+  position: absolute;
+  right:55px;
+  top:137px;
+  text-decoration: underline;
+}
+.subtotal{
+  position: absolute;
+  right:80px;
+  top:200px;
+}
+.checkoutbutton{
+  right: 79px;
+  position: absolute;
+  bottom: 455px;
+}
+.deleteicon{
+  height:5px;
+}
+.adminbuttons{
+  display: block;
+  margin-left: 79px;
+  margin-top: 52px;
+}
+.navstyle{
+  color:black;
+  font-size: 31px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.teampage img{
+  height: 369px;
+  display: block;
+  border: 5px solid black;
+}
+
+
+
+.imgsandmap img{
+    width:47%
+}
+.findusmap{
+  height: 637px;
+  width: 526px;
+  display: block;
+  float: right;
+}
+.findustext{
+  /* margin-right:155px; */
+  text-align: center;
+  margin-bottom: 5em
+}
+.findusimg2{
+  margin-top: .75em;
+  width:213%
+}
+.adminnewitem{
+    width: 26%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:51px;
+    margin-bottom:51px;
+}
+
+a:hover{
+  color:#FDB32B;
+}
+
+.homepagenav img{
+  height:350;
+  width:350;
+}
+
+.sidebar{
+  float: left; 
+  text-transform: uppercase;
+  letter-spacing: 0.21mm;
+  margin-top: 57px;
+}
+.sidebar li {
+  color:black;
+  font-size: 19px;
+  text-align: right;
+  font-weight: 550;  
+}
+
+.sidebar li:hover{
+  color:#FDB32B;
+}
+.sidebar li.selected{
+  color:#FDB32B;
+}
+.productcontainer{
+  position:relative;
+}
+.imgandtextdiv{
+  display:table-cell;
+}
+.imgandtextdiv:hover .text-box{
+  opacity: 1;
+  transition-duration: 1.5s;
+}
+.imgandtextdiv:hover .img-responsive{
+  opacity:.2;
+  transition-duration: .75s;
+}
+.img-responsive{
+opacity:1
+}
+.text-box { 
+  opacity:0;
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 501;
+}
+.text-box span{
+  display: block;
+  text-align: center;
+}
+.remove_checkout{
+  float:right;
+  margin-left: 5em;
+}
+.remove_checkout li{
+  margin-bottom:1em;
+  
+}
+.checkout_img{
+  border-bottom: 1px solid whitesmoke;
+}
+.remove_button{
+  font-size: 27px
+}
+
