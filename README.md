@@ -13,7 +13,7 @@ Please install the following dependencies: Express - https://www.youtube.com/wat
 
 ## Usage
 
-Once you have installed the dependencies, open the code files in your code editor and run npm start on both your client and server.
+Once you have installed the dependencies, clone or download the code files and open them in your code editor. Running npm start on both your client and server will display the project for you locally.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
