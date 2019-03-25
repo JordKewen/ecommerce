@@ -2,6 +2,8 @@
 
 ecommerce is an online store allowing you to filter products and add them to your basket.
 
+Built on React.js using JavaScript, HTML, CSS, Express.js, MongoDB.js, Node.js
+
 ## Installation
 
 Please install the following dependencies: Express - https://www.youtube.com/watch?v=28ebl3eOt4w
